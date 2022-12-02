@@ -4,7 +4,7 @@ import heapq
 
 """
 
-Heap useful for part 2 so multiply all elf calories to create max heap
+Heap useful for part 2 so multiply all elf calories by -1 to create max heap
 
 """
 print("Part 1")
