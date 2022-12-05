@@ -16,6 +16,7 @@ Win -> 6 pts
 
 9 Total Combinations
 """
+
 # Look up table 
 score_combination = {
 1: "B X", 
@@ -57,7 +58,7 @@ total_score = 0
 scores = {} 
 
 #Match requires Python 3.10 or newer
-#Create new commbinations based off the conditions and use our compute score function
+#Create new combinations based off the conditions and use our compute score function
 def create_combination(line):
     condition = line[2]
     opponent_choice = line[0]
